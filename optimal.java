@@ -1,7 +1,7 @@
 package page_replacement;
-import java.util.Scanner;
+import java.util.Scanner; 
 
-public class LRU {
+public class optimal {
 	 public void execute() { 
 	        Scanner sc = new Scanner(System.in); 
 	        int noOfPages, capacity, hit = 0, fault = 0; 
@@ -81,5 +81,4 @@ public class LRU {
 	        System.out.println("Page Faults: " + fault + "\nPage Hits: " + hit); 
 	        System.out.printf("Hit Ratio: %.2f%%\nFault Ratio: %.2f%%\n", hitRatio, faultRatio); 
 	    } 
-
 }
